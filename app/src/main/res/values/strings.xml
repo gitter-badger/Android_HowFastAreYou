@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">HowFastAreYou</string>
+    <string name="bt_start_text">START</string>
+    <string name="bt_tap_text">TAP</string>
+</resources>
