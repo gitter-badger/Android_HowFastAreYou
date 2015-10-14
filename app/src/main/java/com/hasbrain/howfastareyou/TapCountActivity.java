@@ -32,7 +32,7 @@ public class TapCountActivity extends AppCompatActivity {
             @Override
             public void onChronometerTick(Chronometer chronometer) {
                 if (SystemClock.elapsedRealtime() - startTime >= TIME_COUNT) {
-                    stopTapping();
+                    pauseTapping();
                     postResult();
                 }
             }
@@ -60,7 +60,7 @@ public class TapCountActivity extends AppCompatActivity {
         btStart.setEnabled(false);
     }
 
-    private void stopTapping() {
+    private void pauseTapping() {
         btTap.setEnabled(false);
         tvTime.stop();
         btTap.setEnabled(false);
