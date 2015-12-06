@@ -3,4 +3,8 @@
     <string name="bt_start_text">START</string>
     <string name="bt_tap_text">TAP</string>
     <string name="settings_text">Settings</string>
+    <string name="clear">Are you sure?</string>
+    <string name="resethighscore">Reset high score</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
 </resources>
